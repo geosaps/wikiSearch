@@ -1,0 +1,154 @@
+
+
+/* ----------------------------------------
+				BASIC
+--------------------------------------------*/
+
+
+
+html {
+	background-image: url('http://www.theheritageschool.net/Newsite/wp-content/uploads/2016/08/blue-wood-backgrounds-powerpoint.jpg');
+	background-attachment: fixed;
+	color: #FFF;
+	font-size: 16px;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+
+
+/* ----------------------------------------
+			SEARCH CONTAINER
+--------------------------------------------*/
+
+.container {
+	font-family: 'Sahitya', serif;
+	font-size: 2em;
+	line-height: 30px;
+	letter-spacing: 0.1em;
+	margin: 100px auto 10px;
+	text-align: center;
+	width: 50%;
+
+}
+
+.container a {
+	text-decoration: none;
+	color: #FFF;
+	transition: font-size 2s;
+}
+
+.container a:hover {
+	font-size: 1.2em;
+}
+
+
+input {
+	border-radius: 20px;
+	padding: 5px 10px;
+	margin: 20px 0;
+	transition: width 1s;
+	width: 1px;
+}
+
+input:hover,
+input:active,
+input:focus {
+	width: 200px;
+}
+
+
+
+/* ----------------------------------------
+			MAIN CONTAINER
+--------------------------------------------*/
+
+
+main {
+	font-size: 1.8em;
+	margin: 10px auto;
+	width: 70%;
+}
+
+main p {
+	font-size: 0.8em;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.article li {
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding: 1px 10px;
+}
+
+.article li:hover,
+.article li:focus,
+.article li:active {
+	border: 1px solid orange;
+    -webkit-box-shadow: 0px -1px 50px -13px rgba(252,252,252,1);
+    -moz-box-shadow: 0px -1px 50px -13px rgba(252,252,252,1);
+    box-shadow: 0px -1px 50px -13px rgba(252,252,252,1);
+}
+
+.article {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* ----------------------------------------
+			MEDIA QURIES
+--------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+	
+	.main {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	.container {
+		width: 70%;
+		margin-top: 75px;
+	}
+
+
+	.main {
+		width: 80%;
+	}
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	.container {
+		width: 90%;
+		margin-top: 50px;
+	}
+
+
+	.main {
+		width: 95%;
+	}
+
+}
+
