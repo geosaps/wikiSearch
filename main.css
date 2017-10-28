@@ -7,8 +7,10 @@
 
 
 html {
-	background-image: url('http://www.theheritageschool.net/Newsite/wp-content/uploads/2016/08/blue-wood-backgrounds-powerpoint.jpg');
-	background-attachment: fixed;
+    -webkit-animation: COLOR 20s linear infinite; /* Safari 4+ */
+  -moz-animation:    COLOR 20s linear infinite; /* Fx 5+ */
+  -o-animation:      COLOR 20s linear infinite; /* Opera 12+ */
+  animation:         COLOR 20s linear infinite; /* IE 10+, Fx 29+ */
 	color: #FFF;
 	font-size: 16px;
 }
@@ -153,3 +155,14 @@ ul {
 
 }
 
+
+@-webkit-keyframes COLOR {
+  0% {background-color: #5E1C7A;}
+  12% {background-color: #3F1C7A;}
+  37% {background-color: #301C7A;}
+  49% {background-color: #1C517A;}
+  50% {background-color: #1C517A;}
+  63% {background-color: #301C7A;}
+  88% {background-color: #3F1C7A;}
+  100% {background-color: #5E1C7A;}
+}
