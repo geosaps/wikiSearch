@@ -1,5 +1,5 @@
 
-var wikiApp = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&callback=?";
+var wikiApp = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&callback=?";
 $(document).ready(function () {
 
 	document.getElementById("search")
